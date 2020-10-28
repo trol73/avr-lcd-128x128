@@ -1,0 +1,53 @@
+package ru.trolsoft.display128x128;
+
+/**
+ * @author trol
+ * Created on 02/05/17.
+ */
+public interface DisplayCommands {
+
+   int CMD_GET_VERSION = 0;
+   int CMD_SYNC = 1;
+   int CMD_START_BOOTLOADER = 2;
+   int CMD_SET_BACKLIGHT_TIME = 3;	
+   int CMD_SET_BACKLIGHT_LEVEL_LOW	= 4;
+   int CMD_SET_BACKLIGHT_LEVEL_HIGH = 5;
+   int CMD_SET_BEEPER_VOLUME = 6;
+   int CMD_SET_KEYBOARD_BEEP = 7;
+   int CMD_READ_KEYBOARD = 8;
+   int CMD_BEEP = 9;
+   int CMD_PLAY_MELODY = 10;
+   int CMD_SET_STRING_INTERVAL_X = 11;
+   int CMD_SET_STRING_INTERVAL_Y = 12;
+   int CMD_SET_COLOR = 13;
+   int CMD_SET_BACKGROUND = 14;
+   int CMD_SET_FONT = 15;
+   int CMD_DRAW_PIXEL = 16;
+   int CMD_DRAW_LINE_DEFAULT = 17;
+   int CMD_FILL_SCREEN = 18;
+   int CMD_DRAW_LINE = 19;
+   int CMD_DRAW_LINE_TO = 20;
+   int CMD_DRAW_RECT_DEFAULT = 21;
+   int CMD_DRAW_RECT = 22;
+   int CMD_DRAW_RECT_THICK_DEFAULT = 23;
+   int CMD_DRAW_RECT_THICK = 24;
+   int CMD_FILL_RECT = 25;
+   int CMD_FILL_RECT_DEFAULT = 26;
+   int CMD_DRAW_CIRCLE_DEFAULT = 27
+   int CMD_DRAW_CIRCLE = 28;
+   int CMD_FILL_CIRCLE_DEFAULT = 29;
+   int CMD_FILL_CIRCLE = 30;
+   int CMD_DRAW_CHAR = 31;
+   int CMD_FILL_CHAR = 32;
+   int CMD_DRAW_CHAR_XY = 33;
+   int CMD_FILL_CHAR_XY = 34;
+   int CMD_DRAW_STRING = 35;
+   int CMD_FILL_STRING = 36;
+   int CMD_DRAW_STRING_XY = 37;
+   int CMD_SET_FILL_STRING_REGION = 38;
+   int CMD_FILL_STRING_XY = 39;
+
+
+   int CMD_DRAW_VERTICAL_SCROLLBAR = 40;
+   int CMD_DRAW_PROGRESSBAR = 41;
+}
